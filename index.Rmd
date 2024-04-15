@@ -2,7 +2,16 @@
 title: "House Documentation"
 author: "crc"
 date: "2024-04-15"
-output: html_document
+output:
+  html_document:
+    toc: TRUE # table of content true
+    toc_float: TRUE
+    toc_collapsed: FALSE
+    toc_depth: 3  # upto three depths of headings (specified by #, ## and ###)
+    number_sections: TRUE  ## if you want number sections at each table header
+    theme: united  # many options for theme, this one is my favorite.
+    highlight: tango  # specifies the syntax highlighting style
+    #css: my.css   # you can add your custom css, should be in same folder
 ---
 
 # 920 Scout -- A Manual
